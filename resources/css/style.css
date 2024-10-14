@@ -8,7 +8,7 @@ html, body {
     padding: 0;
 }
 body {
-    background: linear-gradient(30deg, #3aa185, #ffffff);
+    background: linear-gradient(120deg, #3aa185, #ffffff);
     background-size: auto;
     background-repeat: no-repeat;
 }
@@ -56,7 +56,7 @@ body {
 
 .title h2 {
     font-weight: 300;
-    color: #269c83;
+    color: #000000;
 }
 
 .meny {
@@ -67,14 +67,22 @@ body {
     font-size: 20px;    
 }
 
-.om-fam {
-    background-color: #ffffff;
+.textparagraphs {
+    background-color: #ffffff50;
     margin-top: 15px;
     padding-left: 10px;
     border-radius: 20px;
 }
 
-a {
+.textparagraphs h3 {
+    
+}
+
+/*.text{
+    opacity: 1;
+}*/
+
+.meny a{
     text-decoration: none;
     color: #183a31;
     margin-top: 18px;
