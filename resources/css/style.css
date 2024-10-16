@@ -3,7 +3,6 @@
 }
 
 html, body {
-    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -82,3 +81,30 @@ a {
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgba(150, 150, 150, 0.651);
 }
+
+@media screen and (max-width: 600px) {
+
+    .banner {
+        border: none;
+        font-size: 2vw;
+        height: auto;
+        padding-bottom: 0;
+    }
+
+    .banner .img {
+        align-self: center;
+    }
+
+    #logo {
+        height: 70px;
+    }
+
+    .meny {
+        font-size: 15px;
+    }
+
+    .content {
+        font-size: 15px;
+    }
+
+  }
