@@ -54,7 +54,7 @@ body {
 
 .title h2 {
     font-weight: 300;
-    color: #269c83;
+    color: #000000;
 }
 
 .meny {
@@ -66,13 +66,20 @@ body {
 }
 
 .om-fam {
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     margin-top: 15px;
     padding-left: 10px;
     border-radius: 20px;
 }
 
-a {
+.textparagraphs {
+    background-color: #ffffff50;
+    margin-top: 15px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+.meny a{
     text-decoration: none;
     color: #183a31;
     margin-top: 18px;
