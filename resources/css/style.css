@@ -1,5 +1,5 @@
 * {
-    font-family: Kanit, Helvetica, sans-serif, 'Comic Sans', Arial, 'Cambria', 'Times New Roman';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 html, body {
@@ -7,9 +7,10 @@ html, body {
     padding: 0;
 }
 body {
-    background: linear-gradient(30deg, #3aa185, #ffffff);
+    background: linear-gradient(30deg, #639792, #166a62);
     background-size: auto;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .content {
@@ -59,19 +60,20 @@ body {
 
 .meny {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    column-gap: 100px;
+    column-gap: 50px;
     margin-top: 50px;
+    margin: 0 auto;
     font-size: 20px;    
 }
 
-.textparagraphs {
+/* .textparagraphs {
     background-color: #ffffff50;
     margin-top: 15px;
     padding-left: 10px;
     border-radius: 20px;
-}
+} */
 
 .meny a{
     text-decoration: none;
@@ -85,21 +87,25 @@ body {
 
 .collapsible {
     text-decoration: none;
-    color: #183a31;
+    background-color: rgb(15, 75, 69);
+    color: #ebf2f3;
     margin-top: 18px;
-    background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgba(150, 150, 150, 0.651);
+    font-size: large;
 }
 
 .collapsible-text {
     display: none;
+    flex-direction: column-reverse;
+    width: 20vw;
     background-color: #ffffff50;
     margin-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px;
+    font-size: medium;
     transition: 0.2s ease-out;
 }
 
