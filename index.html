@@ -22,9 +22,9 @@
             </div>
             <div class="meny">
                 <div class="Buttons">
-                    <button href="#" class="collapsible">Om FAM</button>
-                    <div class="collapsible-text" id="text">
-                        <div class="title-about" id="title">
+                    <button href="#" class="toggle-buttons" onclick="infoText()">Om FAM</button>
+                    <div class="toggle-text" id="button-om-fam">
+                        <div class="title-about">
                             <h3>Om FAM</h3>
                         </div>
                         <div class="description">
@@ -35,9 +35,9 @@
                     </div>
                 </div>
                 <div class="Buttons">
-                    <button type="button" class="collapsible">Årets företag</button>
-                    <div class="collapsible-text" id="text">
-                        <div class="title-about" id="title">
+                    <button type="button" class="toggle-buttons">Årets företag</button>
+                    <div class="toggle-text" id="button-årets-företag">
+                        <div class="title-about">
                             <h3>Årets företag</h3>
                         </div>
                         <div class="description">
@@ -49,9 +49,9 @@
                 </div>
                 
                 <div class="Buttons">
-                    <button type="button" class="collapsible">Om oss</button>
-                    <div class="collapsible-text" id="text">
-                        <div class="title-about" id="title">
+                    <button type="button" class="toggle-buttons">Om oss</button>
+                    <div class="toggle-text" id="button-om-oss">
+                        <div class="title-about">
                             <h3>Om oss</h3>
                         </div>
                         <div class="description">
@@ -64,7 +64,7 @@
                 
             </div> 
 
-            <!-- <div class="textparagraphs">
+            <div class="textparagraphs">
                 <div class="om-fam" id="text">
                     <div class="title-about" id="title">
                         <h3>Om FAM</h3>
@@ -95,13 +95,13 @@
                         </p>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </div>
         <footer>
 
         </footer>
         <script>
-            var coll = document.getElementsByClassName("collapsible");
+            /*var coll = document.getElementsByClassName("collapsible");
             var i;
             
             for (i = 0; i < coll.length; i++) {
@@ -114,7 +114,16 @@
                   content.style.display = "block";
                 }
               });
+            }*/
+
+            function infoText() {
+                var x = document.getElementsByClassName("toggle-buttons");
+                if (x.innerHTML === "Om FAM") {
+                    x.innerHTML = "Swapped text!";
+                } else {
+                    x.innerHTML = "Hello";
+                }
             }
-            </script>
+        </script>
     </body>
 </html>

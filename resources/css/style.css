@@ -68,12 +68,12 @@ body {
     font-size: 20px;    
 }
 
-/* .textparagraphs {
+.textparagraphs {
     background-color: #ffffff50;
     margin-top: 15px;
     padding-left: 10px;
     border-radius: 20px;
-} */
+}
 
 .meny a{
     text-decoration: none;
@@ -85,7 +85,7 @@ body {
     box-shadow: 3px 3px 3px rgba(150, 150, 150, 0.651);
 }
 
-.collapsible {
+.toggle-buttons {
     text-decoration: none;
     background-color: rgb(15, 75, 69);
     color: #ebf2f3;
@@ -96,7 +96,7 @@ body {
     font-size: large;
 }
 
-.collapsible-text {
+.toggle-text {
     display: none;
     flex-direction: column-reverse;
     width: 20vw;
