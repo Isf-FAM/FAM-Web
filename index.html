@@ -21,51 +21,12 @@
                 </div>
             </div>
             <div class="meny">
-                <div class="Buttons">
-                    <button href="#" class="toggle-buttons" onclick="infoText()">Om FAM</button>
-                    <div class="toggle-text" id="button-om-fam">
-                        <div class="title-about">
-                            <h3>Om FAM</h3>
-                        </div>
-                        <div class="description">
-                            <p>
-                                FAM är ... buhbouhbouhbouhbouhbouh
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="Buttons">
+                    <button type="button" class="toggle-buttons">Om FAM</button>
                     <button type="button" class="toggle-buttons">Årets företag</button>
-                    <div class="toggle-text" id="button-årets-företag">
-                        <div class="title-about">
-                            <h3>Årets företag</h3>
-                        </div>
-                        <div class="description">
-                            <p>
-                                Årets deltagande företag är ... 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="Buttons">
                     <button type="button" class="toggle-buttons">Om oss</button>
-                    <div class="toggle-text" id="button-om-oss">
-                        <div class="title-about">
-                            <h3>Om oss</h3>
-                        </div>
-                        <div class="description">
-                            <p>
-                                Vi bakom FAM ... 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                
             </div> 
-
             <div class="textparagraphs">
-                <div class="om-fam" id="text">
+                <div class="paragraphessss" id="om-fam">
                     <div class="title-about" id="title">
                         <h3>Om FAM</h3>
                     </div>
@@ -75,7 +36,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="årets-företag" id="text">
+                <div class="paragraphessss" id="årets-företag">
                     <div class="title-about" id="title">
                         <h3>Årets företag</h3>
                     </div>
@@ -85,7 +46,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="om-oss" id="text">
+                <div class="paragraphessss" id="om-oss">
                     <div class="title-about" id="title">
                         <h3>Om oss</h3>
                     </div>
@@ -100,30 +61,6 @@
         <footer>
 
         </footer>
-        <script>
-            /*var coll = document.getElementsByClassName("collapsible");
-            var i;
-            
-            for (i = 0; i < coll.length; i++) {
-              coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                  content.style.display = "none";
-                } else {
-                  content.style.display = "block";
-                }
-              });
-            }*/
-
-            function infoText() {
-                var x = document.getElementsByClassName("toggle-buttons");
-                if (x.innerHTML === "Om FAM") {
-                    x.innerHTML = "Swapped text!";
-                } else {
-                    x.innerHTML = "Hello";
-                }
-            }
-        </script>
+        <script src="./resources/js/script.js"></script>
     </body>
 </html>

@@ -75,14 +75,9 @@ body {
     border-radius: 20px;
 }
 
-.meny a{
-    text-decoration: none;
-    color: #183a31;
-    margin-top: 18px;
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px rgba(150, 150, 150, 0.651);
+.textparagraphs > div {
+    opacity: 1;
+    transition: opacity 1s;
 }
 
 .toggle-buttons {
@@ -96,17 +91,8 @@ body {
     font-size: large;
 }
 
-.toggle-text {
+.textparagraphs>div:not(:first-child) {
     display: none;
-    flex-direction: column-reverse;
-    width: 20vw;
-    background-color: #ffffff50;
-    margin-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 20px;
-    font-size: medium;
-    transition: 0.2s ease-out;
 }
 
 @media screen and (max-width: 600px) {
@@ -132,6 +118,11 @@ body {
 
     .content {
         font-size: 15px;
+    }
+
+    .toggle-buttons {
+        padding: 5px;
+        font-size: 10px;
     }
 
   }
