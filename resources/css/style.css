@@ -9,7 +9,6 @@ html, body {
 }
 body {
     background-color: #135b55;
-    /*background: linear-gradient(30deg, #639792, #166a62);*/
     background-size: auto;
     background-repeat: no-repeat;
     height: 100vh;
@@ -34,7 +33,7 @@ body {
     display: flex;  
     margin-top: 50px;
     height: 200px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     padding-left: 20px;
     border-bottom: 2px solid #a5bebf;
     border-left: 2px solid #783c3f;
@@ -82,18 +81,22 @@ body {
 
 .textparagraphs h3 {
     font-style: italic;
-    font-size: medium;
+    font-size: large;
     color: #eff0f0;
 }
 
 .textparagraphs p {
-    font-size: 100%;
+    font-size: medium;
     color: #b4c8c8;
 } 
 
 .textparagraphs > div {
     opacity: 1;
     transition: opacity 1s;
+}
+
+.textparagraphs>div:not(:first-child) {
+    display: none;
 }
 
 .toggle-buttons {
@@ -106,16 +109,20 @@ body {
     box-shadow: 3px 3px 3px #0c413c;
     padding: 10px;
     border-radius:5px;
-    font-size: 110%;
-    /*
-    border-color: 2px solid #4ca494 ;
-    border-bottom: 2px solid #4ca494;
-    border-left: 2px solid #b81b06e0;
-    border-bottom-left-radius: 20px;*/
+    font-size: 100%;
+    cursor: pointer;
 }
 
-.textparagraphs>div:not(:first-child) {
-    display: none;
+footer {
+    margin: 0 auto;
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    align-self: center;
+}
+
+.socials link-buttons {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
