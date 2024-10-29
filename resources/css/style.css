@@ -1,5 +1,6 @@
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Source Code Pro, Monofett, Major Mono Display;
+    font-weight: 300;
 }
 
 html, body {
@@ -7,7 +8,8 @@ html, body {
     padding: 0;
 }
 body {
-    background: linear-gradient(30deg, #639792, #166a62);
+    background-color: #135b55;
+    /*background: linear-gradient(30deg, #639792, #166a62);*/
     background-size: auto;
     background-repeat: no-repeat;
     height: 100vh;
@@ -32,11 +34,11 @@ body {
     display: flex;  
     margin-top: 50px;
     height: 200px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
     padding-left: 20px;
-    border-bottom: 2px solid #055838;
-    border-left: 2px solid #b81b06e0;
-    border-bottom-left-radius: 20px;
+    border-bottom: 2px solid #a5bebf;
+    border-left: 2px solid #783c3f;
+    border-bottom-left-radius: 18px;
 }
 
 .banner img {
@@ -50,12 +52,14 @@ body {
 }   
 
 .title h1 {
-    color: black;
+    font: 3em Major Mono Display;
+    color: #eff0f0;
 }
 
 .title h2 {
     font-weight: 300;
-    color: #000000;
+    color: #eff0f0;
+    font: 1.5em Major Mono Display;
 }
 
 .meny {
@@ -69,11 +73,23 @@ body {
 }
 
 .textparagraphs {
-    background-color: #ffffff50;
+    background-color: #94a49430;
     margin-top: 15px;
     padding-left: 10px;
-    border-radius: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #0c413c;
 }
+
+.textparagraphs h3 {
+    font-style: italic;
+    font-size: medium;
+    color: #eff0f0;
+}
+
+.textparagraphs p {
+    font-size: 100%;
+    color: #b4c8c8;
+} 
 
 .textparagraphs > div {
     opacity: 1;
@@ -82,13 +98,20 @@ body {
 
 .toggle-buttons {
     text-decoration: none;
-    background-color: rgb(15, 75, 69);
-    color: #ebf2f3;
-    margin-top: 18px;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px rgba(150, 150, 150, 0.651);
     font-size: large;
+    background-color:  #94a49410;
+    color: #d3e2e4;
+    margin-top: 18px;
+    border: none;
+    box-shadow: 3px 3px 3px #0c413c;
+    padding: 10px;
+    border-radius:5px;
+    font-size: 110%;
+    /*
+    border-color: 2px solid #4ca494 ;
+    border-bottom: 2px solid #4ca494;
+    border-left: 2px solid #b81b06e0;
+    border-bottom-left-radius: 20px;*/
 }
 
 .textparagraphs>div:not(:first-child) {
