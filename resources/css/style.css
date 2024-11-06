@@ -121,15 +121,14 @@ footer {
     align-self: center;
 }
 
-.socials link-buttons {
+.socials > img {
     cursor: pointer;
 }
 
 #FAM_group_photo {
     width: 600px;
-    height: 400px;
     border-radius:5px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 600px) {
@@ -157,9 +156,8 @@ footer {
         font-size: 15px;
     }
 
-    .toggle-buttons {
-        padding: 5px;
-        font-size: 10px;
+    #FAM_group_photo {
+        width: 30vh;
     }
 
   }

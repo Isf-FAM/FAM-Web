@@ -14,11 +14,13 @@ function sleep(ms) {
 }
 
 function hideandShow(index){
-    paragraphs[index].style.opacity = "0";
-    paragraphs[index].style.display = "block";
-    saveVal.style.display = "none";
-    sleep(100).then(() => {
-        paragraphs[index].style.opacity = "1";
-        saveVal = paragraphs[index];
-    });
+    if(saveVal != paragraphs[index]){
+        paragraphs[index].style.opacity = "0";
+        paragraphs[index].style.display = "block";
+        saveVal.style.display = "none";
+        sleep(100).then(() => {
+            paragraphs[index].style.opacity = "1";
+            saveVal = paragraphs[index];
+        });
+    }
 }
