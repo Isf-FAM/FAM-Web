@@ -73,21 +73,24 @@ body {
 
 .textparagraphs {
     background-color: #94a49430;
-    margin-top: 15px;
+    margin: 15px auto;
     padding-left: 15px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px #0c413c;
+    max-width: 1000px;
+    min-width: 300px;
 }
 
 .textparagraphs h3 {
-    font-style: italic;
+    font-weight: 350;
     font-size: large;
     color: #eff0f0;
+    text-align: center;
 }
 
 .textparagraphs p {
     font-size: medium;
-    color: #b4c8c8;
+    color: #eff0f0;
 } 
 
 .textparagraphs > div {
@@ -107,7 +110,7 @@ body {
     margin-top: 18px;
     border: none;
     box-shadow: 3px 3px 3px #0c413c;
-    padding: 10px;
+    padding: 20px;
     border-radius:5px;
     font-size: 100%;
     cursor: pointer;
@@ -128,7 +131,8 @@ footer {
 #FAM_group_photo {
     width: 600px;
     border-radius:5px;
-    margin-bottom: 10px;
+    margin: 10px auto;
+    margin-right: 15px;
 }
 
 @media screen and (max-width: 600px) {
