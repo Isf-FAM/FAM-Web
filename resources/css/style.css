@@ -18,6 +18,7 @@ body {
     display: flex;
     margin-left: 50px;
     margin-right: 50px;
+    padding-bottom: 50px;
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
@@ -31,7 +32,7 @@ body {
 
 .banner {   
     display: flex;  
-    margin-top: 50px;
+    margin-top: 20px;
     height: 200px;
     padding-bottom: 30px;
     padding-left: 20px;
@@ -74,7 +75,6 @@ body {
 .textparagraphs {
     background-color: #94a49430;
     margin: 15px auto;
-    padding-left: 15px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px #0c413c;
     max-width: 1000px;
@@ -83,7 +83,7 @@ body {
 
 .textparagraphs h3 {
     font-weight: 350;
-    font-size: large;
+    font-size: larger;
     color: #eff0f0;
     text-align: center;
 }
@@ -116,11 +116,27 @@ body {
     cursor: pointer;
 }
 
+.paragraphessss {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.company-container{
+    display: flexbox;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.company-logos {
+    width: 300px;
+    padding: 5px;
+}
+
 footer {
     margin: 0 auto;
     display: block;
     position: fixed;
-    bottom: 20px;
+    bottom: 10px;
     align-self: center;
 }
 
@@ -132,7 +148,6 @@ footer {
     width: 600px;
     border-radius:5px;
     margin: 10px auto;
-    margin-right: 15px;
 }
 
 @media screen and (max-width: 600px) {
